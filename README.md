@@ -16,5 +16,4 @@ e.	Optional: use alternative way(s) to measure the best time to buy/sell based o
 a.	Detrend Price throughout the entire period of the Interday Data;
 b.	Use each trading day as a daily unit within each trading week and each month as a monthly unit within each month, respectively;
 c.	Use 1-hot encoding to create the daily and monthly variable(s), respectively;
-d.	Use an OLS regression with Price as the DV and daily and monthly variables as the IVs to measure the effect of “day of the week” and “month of the year” on Price, respectively;
-e.	Optional: use alternative way(s) to create best day/month to buy/sell on the OLS regression report the resulting effect if significantly greater than the 1-hot encoding approach (grading policy: extra point(s) for significantly improved results, depending on the size of the improvement; no penalty for wrong answers).
+d.	Use an OLS regression with Price as the DV and daily and monthly variables as the IVs to measure the effect of “day of the week” and “month of the year” on Price, respectively
